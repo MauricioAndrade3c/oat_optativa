@@ -1,0 +1,38 @@
+#container{
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+#header{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+#menu{
+	border: 1px solid #000;	
+	margin: 5px;
+	padding: 5px;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{
+	border: 1px solid blue;
+	display: inline;
+}
+
+#main{
+	border: 1px solid #000;	
+	margin: 10px 5px 10px 5px;	
+	padding: 5px;
+}
+
+#footer{
+	border: 1px solid #000;	
+	margin: 5px;
+	padding: 5px;
+}

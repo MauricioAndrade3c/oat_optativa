@@ -1,0 +1,41 @@
+body,html{
+	height: 100%;
+}
+
+#container{
+	border: 1px solid #000;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 25% minmax(min-content,8%) auto 15%;
+}
+
+#header{
+	border: 1px solid #000;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: auto;
+}
+
+#main #menu-lateral{
+	border: 1px solid #000;	
+	display: none;
+}
+
+#main #content{
+	border: 1px solid #000;
+}
+
+#footer{
+	border: 1px solid #000;
+}
+
+#menu{
+	border: 1px solid #000;
+	display: inherit;
+}
+#menu ul{
+	display: block;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+form#fContato {
+	width: 500px; /* largura */
+	margin: auto;
+}
+
+input, textarea {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.8);
+}
+
+input:hover, textarea:hover {
+	background-color: #dddddd;
+}
+
+legend {
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+}
+
+fieldset {
+	border-color: #cecece;
+	margin: 20px;
+}
+
+table#tabelaspec {
+	margin-bottom: 20px;
+}
+
+.bt{
+	border:1px solid rgb(0, 0, 0);
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+	
+}
+
+.bt:active {
+    position:relative;
+    top:2px;
+}
+
+.bt-w {
+	border-color:#000000;
+	background:linear-gradient(to bottom, #353635 5%, #000000  100%);
+	box-shadow:inset 0px 1px 0px 0px #e3f1e3;
+	color:#fff;
+	text-shadow:0px 1px 0px #000000;
+}
+
+.bt-w:hover {
+    background:linear-gradient(to bottom, #000000 5%, #575757 100%);
+}
+
+
